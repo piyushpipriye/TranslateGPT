@@ -22,3 +22,24 @@ This is a web-based multilingual translator application built with **ASP.NET** a
 3. The translated result is displayed instantly.
 
 ![PHPTestGen Screenshot](Screenshot%20(309).png)
+
+## 🧪 Run Locally
+
+To run this project on your local machine, use the following commands:
+
+```bash
+# Create a new ASP.NET Core MVC project
+dotnet new mvc -n TranslateGPT -o .
+
+# Add Newtonsoft.Json package (for JSON handling)
+dotnet add package Newtonsoft.Json
+
+# Clean the project
+dotnet clean
+
+# Build the project
+dotnet build
+
+# Publish the project
+dotnet publish
+
